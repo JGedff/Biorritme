@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-justify">
+                <h2 class="text-center">Què és un biorritme?</h2>
+                La naturalesa i tot el que ella comprèn: clima, estacions, reproducció dels
+                animals, collites, etc., es regeixen per cicles biològics o ritmes. Hi ha diferents
+                bioritmes que afecten el nostre comportament en diferents maneres. S'ha
+                comprovat estadísticament que l'energia física es comporta cíclicament en
+                períodes de 23 dies, l'energia emotiva en períodes 28 dies i l'energia intel·lectual en
+                33 dies. A l'hora de néixer, cada cicle comença des de zero i comença a pujar a
+                una fase positiva, durant la qual les energies i les capacitats són altes.
+            </div>
+            <div class="col-sm-6">
+                <h2>Calcula el teu biorritme</h2>
+                <form action="resultat.php" method="get">
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <label>
+                                <strong>Nom d'usuari</strong>
+                                <input type="text" name="nomusuari" id="nomusuari" class="form-control"
+                                    placeholder="Nom d'usuari" required />
+                            </label>
+                            <label>
+                                <strong>Data de naixement</strong>
+                                <input type="date" name="datanaixement" id="datanaixement" class="form-control"
+                                    required />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm text-right" style="margin-top: 20px;">
+                            <button type="submit" class="btn btn-primary">Calcula!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

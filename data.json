@@ -1,0 +1,37 @@
+[
+    {
+        "Nom": "pere",
+        "data": "12\/05\/2023",
+        "f\u00edsic": "-0.98",
+        "emotiu": "0.00",
+        "intelectual": "-0.37"
+    },
+    {
+        "Nom": "Test",
+        "data": "2004-05-09",
+        "f\u00edsic": "-0.98",
+        "emotiu": "-0.62",
+        "intelectual": "0.87"
+    },
+    {
+        "Nom": "Jordi",
+        "data": "0001-01-01",
+        "f\u00edsic": "-0.40",
+        "emotiu": "-0.78",
+        "intelectual": "-0.46"
+    },
+    {
+        "Nom": "a",
+        "data": "0044-04-09",
+        "f\u00edsic": "0.94",
+        "emotiu": "-0.90",
+        "intelectual": "0.81"
+    },
+    {
+        "Nom": "a",
+        "data": "0044-04-09",
+        "f\u00edsic": "0.94",
+        "emotiu": "-0.90",
+        "intelectual": "0.81"
+    }
+]
